@@ -105,3 +105,4 @@ there is my recommend for private node :
   3. https://www.ankr.com/ <br>
    
 We also rent a full node with cheapest and also faster speed, you will get installation guide and maintenance for that just for $70/month, you can compare with private node that I recommend. The different full node with private node is, full node build in our own vps, so we can manage the speed and performance. for more info you can contact on discord : <code>countdown#4008</code>
+# bot-pancakeswap
