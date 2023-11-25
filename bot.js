@@ -176,9 +176,9 @@ const run = async () => {
   ])
   .then(answers => {
     if(answers.runAgain === true){
-      console.log('= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =');
+      console.log('= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =');
       console.log('Run again');
-      console.log('= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =');
+      console.log('= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =');
       initialLiquidityDetected = false;
       run();
     }else{
