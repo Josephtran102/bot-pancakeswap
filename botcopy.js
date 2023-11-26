@@ -8,7 +8,7 @@ const app = express();
 dotenv.config();
 
 const data = {
-  BNB: process.env.BNB_CONTRACT, //bnb rgegergrgrtg5g5g5g56g56g
+  BNB: process.env.BNB_CONTRACT, //bnb 
 
   to_PURCHASE: process.env.TO_PURCHASE, // token that you will purchase = BUSD for test '0xe9e7cea3dedca5984780bafc599bd69add087d56'
 
@@ -176,9 +176,9 @@ const run = async () => {
   ])
   .then(answers => {
     if(answers.runAgain === true){
-      console.log('= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =');
+      console.log('= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =');
       console.log('Run again');
-      console.log('= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =');
+      console.log('= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =');
       initialLiquidityDetected = false;
       run();
     }else{
