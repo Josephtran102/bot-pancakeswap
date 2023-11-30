@@ -8,7 +8,7 @@ const app = express();
 dotenv.config();
 
 const data = {
-  BNB: process.env.BNB_CONTRACT, //bnb
+  BNB: process.env.BNB_CONTRACT, //bnb token
 
   to_PURCHASE: process.env.TO_PURCHASE, // token that you will purchase = BUSD for test '0xe9e7cea3dedca5984780bafc599bd69add087d56'
 
